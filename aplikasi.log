@@ -292,3 +292,8 @@ java.lang.NullPointerException: null
 13:27:35.139 [main] INFO  com.cahyana.asep.MainTest - Info
 13:27:35.145 [main] WARN  com.cahyana.asep.MainTest - Warn
 13:27:35.150 [main] ERROR com.cahyana.asep.MainTest - Error
+2021-11-07 13:36:18.716 [main] TRACE com.cahyana.asep.MainTest - Trace
+2021-11-07 13:36:18.761 [main] DEBUG com.cahyana.asep.MainTest - Debut
+2021-11-07 13:36:18.768 [main] INFO  com.cahyana.asep.MainTest - Info
+2021-11-07 13:36:18.774 [main] WARN  com.cahyana.asep.MainTest - Warn
+2021-11-07 13:36:18.781 [main] ERROR com.cahyana.asep.MainTest - Error
