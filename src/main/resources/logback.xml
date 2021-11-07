@@ -24,8 +24,21 @@
         </encoder>
     </appender>
 
+    <!--DB Schema: MySQL
+    https://github.com/qos-ch/logback/blob/master/logback-classic/src/main/resources/ch/qos/logback/classic/db/script/mysql.sql
+    -->
+    <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">
+        <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">
+            <driverClass>com.mysql.cj.jdbc.Driver</driverClass>
+            <url>jdbc:mysql://127.0.0.1:3306/java_logging_db</url>
+            <user>root</user>
+            <password>root</password>
+        </connectionSource>
+    </appender>
+
     <root level="warn">
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="FILE" />
+        <appender-ref ref="DB" />
     </root>
 </configuration>
