@@ -1,0 +1,15 @@
+<configuration>
+    <!--
+    com.cahyana.asep level lognya adalah trace.
+    package selain com.cahyana.asep levelnya info sesuai dengan level root.
+     -->
+    <logger name="com.cahyana.asep" level="trace" />
+
+    <root level="info">
+        <appender class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </encoder>
+        </appender>
+    </root>
+</configuration>
