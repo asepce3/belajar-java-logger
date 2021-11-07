@@ -1,0 +1,5 @@
+10:52:18.264 [main] TRACE com.cahyana.asep.MainTest - Trace
+10:52:18.267 [main] DEBUG com.cahyana.asep.MainTest - Debut
+10:52:18.267 [main] INFO  com.cahyana.asep.MainTest - Info
+10:52:18.268 [main] WARN  com.cahyana.asep.MainTest - Warn
+10:52:18.269 [main] ERROR com.cahyana.asep.MainTest - Error
