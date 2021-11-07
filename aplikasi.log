@@ -3,3 +3,8 @@
 10:52:18.267 [main] INFO  com.cahyana.asep.MainTest - Info
 10:52:18.268 [main] WARN  com.cahyana.asep.MainTest - Warn
 10:52:18.269 [main] ERROR com.cahyana.asep.MainTest - Error
+11:05:44.080 [main] TRACE com.cahyana.asep.MainTest - Trace
+11:05:44.083 [main] DEBUG com.cahyana.asep.MainTest - Debut
+11:05:44.083 [main] INFO  com.cahyana.asep.MainTest - Info
+11:05:44.084 [main] WARN  com.cahyana.asep.MainTest - Warn
+11:05:44.084 [main] ERROR com.cahyana.asep.MainTest - Error
